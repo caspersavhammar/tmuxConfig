@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SESSION="my_session"
-PROJECT_DIR="$HOME/Documents/my_project"
+PROJECT_DIR="$PWD"
 
 attach() {
     if [ -n "$TMUX" ]; then
